@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp"
+            android:title="@string/my_account" />
+
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="@string/my_wallet" />
+
+        <item
+            android:id="@+id/nav_devices"
+            android:icon="@drawable/ic_devices_other_black_24dp"
+            android:title="@string/manage_devices" />
+
+        <!--<item
+            android:id="@+id/nav_fun"
+            android:icon="@drawable/ic_fun"
+            android:title="@string/game" />-->
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_change_pass"
+            android:icon="@drawable/ic_screen_lock_rotation_black_24dp"
+            android:title="@string/change_password" />
+
+        <item
+            android:id="@+id/nav_prefer"
+            android:icon="@drawable/ic_vpn_lock_black_24dp"
+            android:title="@string/preferences" />
+
+        <!-- <item
+             android:id="@+id/nav_support"
+             android:icon="@drawable/nav_support"
+             android:title="@string/support" />-->
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_star_half_black_24dp"
+            android:title="@string/rate" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_compare_arrows_black_24dp"
+            android:title="@string/check_history" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/logout" />
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item android:title="@string/other">
+            <menu>
+                <item
+                    android:id="@+id/nav_feedBack"
+                    android:icon="@drawable/ic_rss_feed_black_24dp"
+                    android:title="@string/support_and_feedback" />
+            </menu>
+        </item>
+    </group>
+</menu>
